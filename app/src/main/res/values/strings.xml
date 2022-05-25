@@ -3,4 +3,5 @@
     <string name="name">THY</string>
     <string name="Yellow_star">Yellow star</string>
     <string name="bio_text">Hi, I am Tzu-Hsien Yeh.\n\nI am a prudent person prone to plan head and think twice before actions, yet this personality do not stop me from stepping out the comfort zone to attempt new things, such as the biomedical research, live performances, and the exchange programs.\nThe attempts in other fields and the experience in scientific ideas and language exchanges have inspired me to learn how integration of knowledge of different fields could make works efficient and effective.</string>
+    <string name="nickname_edit_hint">What is your nickname</string>
 </resources>
