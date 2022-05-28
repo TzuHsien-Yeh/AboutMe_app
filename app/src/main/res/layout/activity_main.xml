@@ -2,6 +2,13 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="myName"
+            type="com.example.aboutme.MyName" />
+    </data>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -12,7 +19,7 @@
             style="@style/nameStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/name"
+            android:text="@={myName.name}"
             android:textAlignment="center" />
 
         <EditText
@@ -25,7 +32,8 @@
             android:inputType="textPersonName"
             android:textAlignment="center"
             android:textColorHint="#78909C"
-            tools:ignore="TouchTargetSizeCheck" />
+            tools:ignore="TouchTargetSizeCheck"
+            android:text="@={myName.name}"/>
 
         <Button
             android:id="@+id/done_button"
@@ -44,7 +52,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="center"
-            android:visibility="gone" />
+            android:visibility="gone"
+            android:text="@={myName.name}"/>
 
         <ImageView
             android:id="@+id/star_image"
