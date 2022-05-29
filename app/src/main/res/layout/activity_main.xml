@@ -32,8 +32,7 @@
             android:inputType="textPersonName"
             android:textAlignment="center"
             android:textColorHint="#78909C"
-            tools:ignore="TouchTargetSizeCheck"
-            android:text="@={myName.name}"/>
+            tools:ignore="TouchTargetSizeCheck" />
 
         <Button
             android:id="@+id/done_button"
